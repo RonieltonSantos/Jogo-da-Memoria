@@ -18,7 +18,7 @@ const timer = document.querySelector('.timer');
     const backToMenuButton = document.querySelector('.back-to-menu');
 
 backToMenuButton.addEventListener('click', () => {
-  window.location.href = 'index.html';
+  window.location.href = '../index.html';
 });
 
     const createElement = (tag, className) => {
