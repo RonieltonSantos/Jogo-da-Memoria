@@ -15,6 +15,11 @@ const timer = document.querySelector('.timer');
         'meeseeks',
         'scroopy',
     ];
+    const backToMenuButton = document.querySelector('.back-to-menu');
+
+backToMenuButton.addEventListener('click', () => {
+  window.location.href = 'index.html';
+});
 
     const createElement = (tag, className) => {
         const element = document.createElement(tag);

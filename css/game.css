@@ -69,4 +69,13 @@ header {
     filter: saturate(0);
     opacity: 0.5;
 }
-
+.back-to-menu {
+    background: #2ca7147e;
+	color: white;
+	border-style: outset;
+	border-color: #000000;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+  }
